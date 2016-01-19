@@ -9,6 +9,7 @@ public class HelloWorld {
 		staticFileLocation("/public/source");
 		
 		get("/hello", (req, res) -> {
+			System.out.println("code for test commit!");
 			return "merong";
 		});
 	}
